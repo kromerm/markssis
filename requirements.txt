@@ -1,0 +1,5 @@
+# Core HTTP client
+requests>=2.31.0
+
+# Microsoft Entra ID / Azure Active Directory interactive user authentication
+azure-identity>=1.15.0

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssis2fabric"
+version = "0.1.0"
+description = "Convert SSIS DTSX packages to Microsoft Fabric Data Factory items"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0",
+    "azure-identity>=1.15.0",
+]
+
+[project.scripts]
+ssis2fabric = "ssis2fabric.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

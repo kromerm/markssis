@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Test/dev output directories
+ssisconvert*/
+dry_out/
+dry_pkg/
+output_sample/
+sample/
+
+# SSIS test packages (not part of the tool itself)
+*.dtsx
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+.DS_Store
